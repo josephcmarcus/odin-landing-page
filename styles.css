@@ -19,6 +19,7 @@ p {
 .header-logo {
   font-size: 20px;
   font-weight: bold;
+  opacity: 1;
 }
 
 .header-links {
