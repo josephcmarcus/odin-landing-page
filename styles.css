@@ -31,11 +31,6 @@ p {
   color: white;
 }
 
-.cta {
-  background-color: #174eaf;
-  color: white;
-}
-
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -161,10 +156,60 @@ p {
   font-weight: bold;
 }
 
+.cta {
+  margin-right: 15%;
+  margin-left: 15%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .cta-container {
+  background-color: #3882f6;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center; 
-  margin-left: 15%;
-  margin-right: 15%;
+  border-radius: 10px;
+}
+
+.cta-container-row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta-container-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cta-container-column h2 {
+  margin-bottom: 0;
+}
+
+.cta-container-column p {
+  margin-top: 0;
+}
+
+.cta-container-column button {
+  transition: background 0.3s 0s ease-in-out;
+  background-color: #2882f6;
+  border: 3px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  padding: 10px 30px;
+}
+
+.cta-container-column button:hover {
+  transition: background 0.3s 0s ease-in-out;
+  background-color: white;
+  color: #2882f6;
 }
