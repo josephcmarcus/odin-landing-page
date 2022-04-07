@@ -213,3 +213,14 @@ p {
   background-color: white;
   color: #2882f6;
 }
+
+footer {
+  background-color: #1f2937;
+  color: white;
+}
+
+.footer-container {
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
